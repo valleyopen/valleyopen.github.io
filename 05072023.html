@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Table Generator</title> 
+	<style>
+		table {
+			border:1px solid #b3adad;
+			border-collapse:collapse;
+			padding:5px;
+		}
+		table th {
+			border:1px solid #b3adad;
+			padding:5px;
+			background: #cce8b5;
+			color: #313030;
+		}
+		table td {
+			border:1px solid #b3adad;
+			text-align:center;
+			padding:5px;
+			background: #ffffff;
+			color: #313030;
+		}
+	</style>
+</head>
+<body>
+	<form><input type="button" value="Go back!" onclick="history.back()"></form><br><br>
+	
+	<table border="1" style="border-collapse:collapse; width:80%">
+		<thead>
+			<tr>
+				<th>5 Players</th>
+				<th colspan="2">Round 1</th>
+				<th colspan="2">Round 2</th>
+				<th colspan="2">Round 3</th>
+				<th colspan="2">Round 4</th>
+				<th colspan="2">Round 5</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="2">match 1</td>
+				<td>Shawn H</td>
+				<td>3</td>
+				<td><b>Waldon Z</b></td>
+				<td><b>4</b></td>
+				<td><b>Serena C</b></td>
+				<td><b>4</b></td>
+				<td>Emma F</td>
+				<td>2</td>
+				<td><b>Jason F</b></td>
+				<td><b>4</b></td>
+				
+			</tr>
+			<tr>
+				<td><b>Jason F</b></td>
+				<td><b>4</b></td>
+				<td>Shawn H</td>
+				<td>3</td>
+				<td>Waldon Z</td>
+				<td>0</td>
+				<td><b>Serena C</b></td>
+				<td><b>4</b></td>
+				<td>Emma F</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td rowspan="2">match 2</td>
+				<td>Emma F</td>
+				<td>2</td>
+				<td><b>Jason F</b></td>
+				<td><b>4</b></td>
+				<td><b>Shawn H</b></td>
+				<td><b>4</b></td>
+				<td>Waldon Z</td>
+				<td>0</td>
+				<td>Serena C</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td><b>Waldon Z</b></td>
+				<td><b>4</b></td>
+				<td>Serena C</td>
+				<td>0</td>
+				<td>Emma F</td>
+				<td>0</td>
+				<td><b>Jason F</b></td>
+				<td><b>4</b></td>
+				<td><b>Shawn H</b></td>
+				<td><b>4</b></td>
+			</tr>
+			<tr>
+				<td rowspan="2">match 3</td>
+				<td>Serena C</td>
+				<td></td>
+				<td>Emma F</td>
+				<td></td>
+				<td>Jason F</td>
+				<td></td>
+				<td>Shawn H</td>
+				<td></td>
+				<td>Waldon Z</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Bye</td>
+				<td></td>
+				<td>Bye</td>
+				<td></td>
+				<td>Bye</td>
+				<td></td>
+				<td>Bye</td>
+				<td></td>
+				<td>Bye</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
